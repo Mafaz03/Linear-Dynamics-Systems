@@ -2,7 +2,6 @@ clc;
 clear all;
 close all;
 
-%
 
 function dydt = forcesdof(t, y, m, c, k, F0, omega_f)
     F_t = F0 * sin(omega_f * t);   % Excitation force
